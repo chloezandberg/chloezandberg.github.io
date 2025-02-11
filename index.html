@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+		<title>Chloe Zandberg's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Hi, I'm Chloe!</h1>
+							<p class="major">I'm a third-year <a href="https://intsci.ubc.ca/" target="_blank">Integrated Science</a> student at the University of British Columbia integrating data science, statistics, and economics. 
+								Passionate about data and uplifting under-represented genders in tech, I volunteer with <a href="https://www.ubcwids.com/" target="_blank">Women In Data Science (WiDS@UBC)</a> to help nurture a diverse tech community at UBC. 
+								Further, I love to dance—I manage a high-level student-led UBC street dance team, <a href="https://www.instagram.com/project.ung/" target="_blank">Project U&G.</a>  Welcome to my (work-in-progress) portfolio!</a></p>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Let's See It!</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/headshot.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>OvaTechAI</h2>
+							<h4> AI4Good Lab — June 2024 </h4>
+
+							<p>OvaTech AI is an app that aims to spread awareness of PCOS and help patients get their diagnosis faster — surveys indicate that up to <a href="https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome#:~:text=Up%20to%2070%25%20of%20affected%20women%20remain%20undiagnosed%20worldwide.
+								" target = "_blank">70% of women with PCOS remain undiagnosed</a> and <a href="https://academic.oup.com/inthealth/article/15/1/56/6585949#:~:text=Many%20participants%20(40%25)%20had%20doctors%20who%20had%20little%20knowledge%20of%20PCOS
+								" target="_blank">40% of healthcare providers lack comprehensive knowledge of the diagnostic criteria</a> for PCOS.
+
+								I worked with a team of 5 members and 2 project mentors to develop two ML models to predict if a patient has PCOS: a Random Forest model with 96% accuracy that operates on the patient’s symptom data and a Convolutional Neural Network using VGGNet16 that operates on the patient’s ovary ultrasound images. The Figma interace I developed includes other features such as daily symptom tracking and educational resources on PCOS for increased DAU. </p>
+							<ul class="actions stacked">
+								<li><a href="https://ovatech-ai.netlify.app/" target="_blank" class="button">Try The MVP</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/interface.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>memoAIzed</h2>
+							<h4> UBC CIC Generative AI and Sustainability Hackathon — November 2024 </h4>
+							<p>memoAIzed is a sustainable image generator that reduces energy consumption up to 99%! Image generation is notoriously unsustainable—it can cost as much as<a href="https://www.technologyreview.com/2023/12/01/1084189/making-an-image-with-generative-ai-uses-as-much-energy-as-charging-your-phone/#:~:text=generating%20an%20image%20using%20a%20powerful%20AI%20model%20takes%20as%20much%20energy%20as%20fully%20charging%20your%20smartphone
+								" target="_blank"> 1 full smartphone charge in energy for a single generation</a>. 
+								This memoization-inspired image generator uses the power of AWS to efficiently and scalably store previously generated images, reusing them if a prompt passed to the image generator is semantically-similar to previous prompts. In this project, we used Amazon's DynamoDB and S3 for efficient image and prompt storage, as well as Amazon Titan for image generation and Llama 3.1 for semantic prompt matching. Essentially, we've lowered the cost of image generation down to the cost of text generation, which only costs around 1% of the energy.
+								You can imagine how the application would improve dramatically if the user base scaled and the database of previously seen images grew larger and larger. 
+								As a bonus, the latency for memoized images is 5 times faster on average than for non-memoized images!</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/chloezandberg/memoAIzed" target="_blank" class="button">See The Repo</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/speaking.JPG" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>equiHealth</h2>
+							<p>equiHealth is a full-stack MERN application, supported by Spline for 3D graphics. It's a health app inspired by Duolingo in the sense that the user tries to maintain a daily streak, except instead of language-learning, they must carry out a wellness task. 
+								Such tasks include drinking enough water, journaling, or taking a walk. The app documents which category of tasks the user most frequently chooses, then recommends Arc'teryx products for the user based on the user's favourite category—the mission of the youCode 2024 Hackathon was to develop new channels for Arc'teryx to consider for their omnichannel marketing initiatives.
+							</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/zayan-sheikh/equihealth" target="_blank" class="button">See the Repo</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/youcode.png" alt="" />
+						</div>
+					</section>
+
+				<!--  Five -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Graphic Design</h2>
+							<p>In my past experience as a Graphics Coordinator for Project U&G, a competitive student-led UBC dance team, I spearheaded marketing initiatives by developing social media graphics, designing physical posters, and creating team merchandise designs. 
+								In my current experience as a Social Media Manager for Women in Data Science (WiDS@UBC), I develop marketing campaigns in both video and graphic form, manage requests from social media channels, and produce promotional pieces of copywriting.  
+							</p>
+						</div> -->
+
+						<!-- Gallery -->
+							<!--  <div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="images/gallery/fulls/PUG_Showcase_Poster.png" class="image">
+										<img src="images/gallery/thumbs/PUG_Showcase_Poster.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Project U&G Showcase Physical Poster</h3>
+										<p>I designed these posters to be put up around UBC campus for my dance club's first ever annual year-end showcase. The event attracted over 350 attendees.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Close UP</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/FINAL_FRONT_IMAGE_PUG_MERCH.PNG" class="image">
+										<img src="images/gallery/FINAL_FRONT_IMAGE_PUG_MERCH.PNG" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Project U&G Merchandise Design</h3>
+										<p>To create this design, I chose a font that aligned with the dance team's brand and aesthetic. I hand drew the wrapping arches using an iPad.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Close Up</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/03.jpg" class="image">
+										<img src="images/gallery/thumbs/03.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Amet</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/04.jpg" class="image">
+										<img src="images/gallery/thumbs/04.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Tempus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/05.jpg" class="image">
+										<img src="images/gallery/thumbs/05.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ultrices Magna</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/06.jpg" class="image">
+										<img src="images/gallery/thumbs/06.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Tempus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/07.jpg" class="image">
+										<img src="images/gallery/thumbs/07.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/08.jpg" class="image">
+										<img src="images/gallery/thumbs/08.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Risus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/09.jpg" class="image">
+										<img src="images/gallery/thumbs/09.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Tempus Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/10.jpg" class="image">
+										<img src="images/gallery/thumbs/10.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Etiam</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/11.jpg" class="image">
+										<img src="images/gallery/thumbs/11.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/12.jpg" class="image">
+										<img src="images/gallery/thumbs/12.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+
+					</section> -->
+
+				<!-- Six -->
+					<!--  <section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Ipsum sed consequat</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>Lorem</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Ipsum</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<h3>Dolor</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-wifi"></span>
+									<h3>Amet</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Magna</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+									<h3>Tempus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+									<h3>Aliquam</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Elit</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-hashtag"></span>
+									<h3>Morbi</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-bolt"></span>
+									<h3>Turpis</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-envelope"></span>
+									<h3>Ultrices</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-leaf"></span>
+									<h3>Risus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+							</div>
+						</div>
+					</section> -->
+
+				<!-- Seven -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.instagram.com/widsubc/?hl=en" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.linkedin.com/in/chloe-zandberg/" target="_blank" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:zandbergchloe@gmail.com" target="_blank" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Chloe Zandberg. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
